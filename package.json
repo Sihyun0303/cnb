@@ -1,0 +1,41 @@
+{
+  "name": "@zyrecx/tflix",
+  "appName": "TFlix",
+  "version": "1.4.0",
+  "description": "TFlix transforms Cineby.gd into a TV-friendly experience for Samsung TVs running TizenBrew with enhanced remote navigation.",
+  "packageType": "mods",
+  "websiteURL": "https://www.cineby.gd",
+  "main": "dist/userScript.js",
+  "author": "Zyrex",
+  "serviceFile": "dist/service.js",
+  "keys": [
+    "MediaPlayPause",
+    "MediaPlay",
+    "MediaPause",
+    "MediaStop",
+    "MediaFastForward",
+    "MediaRewind",
+    "MediaTrackNext",
+    "MediaTrackPrevious"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zyrecx/TFlix"
+  },
+  "bugs": {
+    "url": "https://github.com/Zyrecx/TFlix/issues"
+  },
+  "homepage": "https://github.com/Zyrecx/TFlix#readme",
+  "keywords": [
+    "tizenbrew",
+    "tizen",
+    "samsung",
+    "tv",
+    "cineby",
+    "streaming"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
